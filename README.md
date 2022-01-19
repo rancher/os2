@@ -1,3 +1,5 @@
+# EXPERIMENTAL
+
 # Architecture
 
 RancherOS v2 is an immutable Linux distribution built to run Rancher and
