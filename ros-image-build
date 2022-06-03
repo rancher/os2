@@ -246,7 +246,7 @@ usage()
     echo "    $0 IMAGE OUTPUT [ISO_CLOUD_CONFIG]"
     echo
     echo "    IMAGE: a Docker image"
-    echo "    OUTPUT: Comma seperated value of output image formats. Valid: aws,iso,qcow"
+    echo "    OUTPUT: Comma seperated value of output image formats. Valid: ami,iso,qcow"
     echo "    ISO_CLOUD_CONFIG: An option file that will be used as the default cloud-init in an ISO"
 }
 
