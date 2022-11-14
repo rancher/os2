@@ -1,5 +1,5 @@
 # Project information
-site_name: RancherOS v2 - Immutable Linux for Rancher
+site_name: +++ this site is archived, please see https://rancher.github.io/elemental +++
 site_url: https://rancher.github.io/os2
 
 # Repository
@@ -33,6 +33,10 @@ extra:
 plugins:
   - search
   - markdownextradata: {}
+  - redirects:
+      redirect_maps:
+        'index.md': 'https://rancher.github.io/elemental'
+
 
 markdown_extensions:
 - codehilite
